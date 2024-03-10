@@ -1,0 +1,1253 @@
+{
+  "id": "b6951f8f-af32-4a1e-915f-eaa1ae55e92b",
+  "version": "2.0",
+  "name": "Upwork Testing ",
+  "url": "https://www.upwork.com/nx/find-work/best-matches",
+  "tests": [{
+    "id": "fe363550-f1c3-4aab-856d-8eab2f5493b8",
+    "name": "User profile overview",
+    "commands": [{
+      "id": "506be479-fa0c-4c5b-acfd-0455a3a46264",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.upwork.com/nx/find-work/best-matches",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c5164eb0-8796-431c-b60c-d4bd8fb1a587",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1040x754",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d93be5ac-c722-4b9d-8a9c-087083e99864",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//section/div/div/a",
+      "targets": [
+        ["linkText=Profile Completeness:", "linkText"],
+        ["css=.link-as-text-unless-parent-is-hovered", "css:finder"],
+        ["xpath=//a[contains(text(),'Profile Completeness:')]", "xpath:link"],
+        ["xpath=//main[@id='main']/div[2]/div[4]/aside/div/div/div/section/div/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript:')])[2]", "xpath:href"],
+        ["xpath=//section/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Profile Completeness:')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "134bd740-5306-4c83-8f50-cdb44fbf6ef9",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//div[2]/div[2]/div[2]/div/div/div[2]",
+      "targets": [
+        ["css=.py-20 > .d-flex > .col", "css:finder"],
+        ["xpath=//main[@id='main']/div[2]/div[4]/aside/div/div/div/section/div[2]/div[2]/div/div/div/div[3]/div/div[2]/div[2]/div[2]/div[2]/div/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div[2]/div/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "540ff617-8975-4bab-bf03-f708753a6db4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.p-0 polygon",
+      "targets": [
+        ["css=.p-0 polygon", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "348546af-dc48-4b9e-9756-c614cd2e3d29",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.p-0 polygon",
+      "targets": [
+        ["css=.p-0 polygon", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "753042f7-328b-4013-b1a5-07a517cb38ef",
+      "comment": "",
+      "command": "click",
+      "target": "css=.up-btn-row > .up-btn",
+      "targets": [
+        ["css=.up-btn-row > .up-btn", "css:finder"],
+        ["xpath=(//button[@type='button'])[37]", "xpath:attributes"],
+        ["xpath=//main[@id='main']/div[2]/div[4]/aside/div/div/div/section/div[2]/div[2]/div/div/div/div[3]/div/div[2]/div[2]/div[2]/div[3]/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div[3]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "7c7fde2e-fcfb-4ca5-ab09-03807f858a76",
+    "name": "update profile",
+    "commands": [{
+      "id": "99e31065-4d17-43b3-8808-cebbeddc6f68",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.upwork.com/nx/find-work/best-matches",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f4b1d42f-e639-4fae-9564-9045966de3d3",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1040x754",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ccd77fc5-1a2e-4462-87c8-becbd7cbd8b6",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Profile Completeness:",
+      "targets": [
+        ["linkText=Profile Completeness:", "linkText"],
+        ["css=.link-as-text-unless-parent-is-hovered", "css:finder"],
+        ["xpath=//a[contains(text(),'Profile Completeness:')]", "xpath:link"],
+        ["xpath=//main[@id='main']/div[2]/div[4]/aside/div/div/div/section/div/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript:')])[2]", "xpath:href"],
+        ["xpath=//section/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Profile Completeness:')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "023f2b89-8629-48a7-8015-82e2a2d4838b",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Profile Completeness:",
+      "targets": [
+        ["linkText=Profile Completeness:", "linkText"],
+        ["css=.link-as-text-unless-parent-is-hovered", "css:finder"],
+        ["xpath=//a[contains(text(),'Profile Completeness:')]", "xpath:link"],
+        ["xpath=//main[@id='main']/div[2]/div[4]/aside/div/div/div/section/div/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript:')])[2]", "xpath:href"],
+        ["xpath=//section/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Profile Completeness:')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6e910fe0-9b51-4909-abdd-4ada8156aaed",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Profile Completeness:",
+      "targets": [
+        ["linkText=Profile Completeness:", "linkText"],
+        ["css=.link-as-text-unless-parent-is-hovered", "css:finder"],
+        ["xpath=//a[contains(text(),'Profile Completeness:')]", "xpath:link"],
+        ["xpath=//main[@id='main']/div[2]/div[4]/aside/div/div/div/section/div/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript:')])[2]", "xpath:href"],
+        ["xpath=//section/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Profile Completeness:')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f253361d-3b69-4a15-af77-c2e56142e9f0",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//a[2]/div/div[3]",
+      "targets": [
+        ["css=.row:nth-child(2) div:nth-child(3)", "css:finder"],
+        ["xpath=//main[@id='main']/div[2]/div[4]/aside/div/div/div/section/div[2]/div[2]/div/div/div/div[3]/div/div[2]/div[2]/div[2]/div/a[2]/div/div[3]", "xpath:idRelative"],
+        ["xpath=//a[2]/div/div[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "55227220-bdae-41ed-a905-5597a1ef9ba6",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3bd0e531-7e98-4c11-a504-79e0ad0c98ad",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=(//input[@type='search'])[3]",
+      "targets": [
+        ["css=.up-typeahead-input-main", "css:finder"],
+        ["xpath=(//input[@type='search'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='institutionName']/div/span/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1f7f0a33-5198-4164-ba40-2d977fd3f182",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=(//input[@type='search'])[3]",
+      "targets": [
+        ["css=.up-typeahead-input-main", "css:finder"],
+        ["xpath=(//input[@type='search'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='institutionName']/div/span/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": "American I"
+    }, {
+      "id": "2aecab47-0902-4a1b-ae76-5ac324ea0b6f",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//ul[@id='typeahead-input-control-11']/li[4]",
+      "targets": [
+        ["css=.focused-menu", "css:finder"],
+        ["xpath=//ul[@id='typeahead-input-control-11']/li[4]", "xpath:idRelative"],
+        ["xpath=//div/div/ul/li[4]", "xpath:position"],
+        ["xpath=//li[contains(.,'American International University-Bangladesh')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c1ed4215-a53c-4af8-a9e4-5fc892378c75",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//div[@id='dropdown-label-7']/div/span",
+      "targets": [
+        ["css=#dropdown-label-7 .flex-1", "css:finder"],
+        ["xpath=//div[@id='dropdown-label-7']/div/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[3]/div/div/div/div/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'From')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ac12f22f-0b75-4336-8145-4ca159ccef0b",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//div[2]/ul/li[5]",
+      "targets": [
+        ["css=.focused-menu", "css:finder"],
+        ["xpath=//ul[@id='dropdown-menu-7']/li[5]", "xpath:idRelative"],
+        ["xpath=//div[2]/ul/li[5]", "xpath:position"],
+        ["xpath=//li[contains(.,'2019')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "795d782d-4885-4d88-bf65-ee2e34db1536",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//div[2]/div/div[3]/div/div[2]/div/div",
+      "targets": [
+        ["id=dropdown-label-8", "id"],
+        ["css=#dropdown-label-8", "css:finder"],
+        ["xpath=//div[@id='dropdown-label-8']", "xpath:attributes"],
+        ["xpath=//main[@id='main']/div[2]/div[4]/div/div[2]/div[2]/div/div/div/div[2]/div/div[3]/div/div[2]/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[3]/div/div[2]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "61ca79ea-1dbf-4e2c-b34e-f0029155d319",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//div[2]/ul/li[8]",
+      "targets": [
+        ["css=.focused-menu", "css:finder"],
+        ["xpath=//ul[@id='dropdown-menu-8']/li[8]", "xpath:idRelative"],
+        ["xpath=//div[2]/ul/li[8]", "xpath:position"],
+        ["xpath=//li[contains(.,'2023')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "40c3cc15-b440-43b4-af1b-1d2024a2c55a",
+      "comment": "",
+      "command": "mouseUp",
+      "target": "xpath=//div[5]/div/div/span/div/div/div/input",
+      "targets": [
+        ["css=.open .up-typeahead-input-main", "css:finder"],
+        ["xpath=(//input[@type='search'])[4]", "xpath:attributes"],
+        ["xpath=//div[@id='areaOfStudy']/div/span/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/span/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "b27a4268-6f36-4c66-8b16-5e1dba4bcd45",
+    "name": "update password",
+    "commands": [{
+      "id": "ab19a305-2829-4ca4-98e3-fcd6e52e6a9b",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.upwork.com/nx/find-work/best-matches",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fe6af521-634e-48f0-9136-761d65d29602",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "720x480",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "87caa7fb-5926-4d67-aaee-867b591f1a80",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Aminul Islam R.",
+      "targets": [
+        ["linkText=Aminul Islam R.", "linkText"],
+        ["css=.profile-title", "css:finder"],
+        ["xpath=//a[contains(text(),'Aminul Islam R.')]", "xpath:link"],
+        ["xpath=//section[@id='fwh-sidebar-profile']/div/h3/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://upwork.com/freelancers/aminulislamrocky2')])[2]", "xpath:href"],
+        ["xpath=//section/div/h3/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Aminul Islam R.')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c585a5a7-d726-4d1f-a2e0-1b106ada5e5e",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "xpath=//section/div/h3/a",
+      "targets": [
+        ["linkText=Aminul Islam R.", "linkText"],
+        ["css=.profile-title", "css:finder"],
+        ["xpath=//a[contains(text(),'Aminul Islam R.')]", "xpath:link"],
+        ["xpath=//section[@id='fwh-sidebar-profile']/div/h3/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://upwork.com/freelancers/aminulislamrocky2')])[2]", "xpath:href"],
+        ["xpath=//section/div/h3/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Aminul Islam R.')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f12e99ca-9eed-4f65-b28c-5ff219fe3ae4",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//img",
+      "targets": [
+        ["css=.nav-user-avatar", "css:finder"],
+        ["xpath=//img[contains(@src,'https://www.upwork.com/profile-portraits/c1M80nDDCglDGb1SbquoE2idNIhSgUShZf_xquTMjsvUAdsWhva6HFRb42Y8kNaFiY')]", "xpath:img"],
+        ["xpath=//nav[@id='nav-right']/ul/li[9]/button/div/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f51c7f3e-4623-4bca-8a2c-f18f8c71d1b2",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//li[4]/ul/li/a",
+      "targets": [
+        ["linkText=Settings", "linkText"],
+        ["css=.nav-options-desktop .up-n-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Settings')]", "xpath:link"],
+        ["xpath=//nav[@id='nav-right']/ul/li[9]/ul/li[4]/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/freelancers/settings/contactInfo')]", "xpath:href"],
+        ["xpath=//li[4]/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Settings')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8f3db7ee-e1c3-41ce-a64a-b87702e4ac5b",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//footer/div/div/button[2]/span",
+      "targets": [
+        ["css=#control_continue > span", "css:finder"],
+        ["xpath=//button[@id='control_continue']/span", "xpath:idRelative"],
+        ["xpath=//footer/div/div/button[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Continue')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "66dc4637-9974-4aeb-9860-78b9926079b4",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//li[10]/a/span",
+      "targets": [
+        ["css=.up-settings-list-item-passwordSecurity .up-settings-text", "css:finder"],
+        ["xpath=//main[@id='main']/div[2]/div[4]/div/div/nav/div/div[2]/ul/li[10]/a/span", "xpath:idRelative"],
+        ["xpath=//li[10]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Password & Security')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "69ce70be-ba02-4c5e-b7cc-6bf133c9d2cd",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "xpath=//div[2]/ul/li[4]/a/span",
+      "targets": [
+        ["css=.up-settings-list-item-taxInfoHistory .up-settings-text", "css:finder"],
+        ["xpath=//main[@id='main']/div[2]/div[4]/div/div/nav/div/div[2]/ul/li[4]/a/span", "xpath:idRelative"],
+        ["xpath=//div[2]/ul/li[4]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Tax Information History')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4e3693ac-147c-4bca-bd9c-9ef2cd602425",
+      "comment": "",
+      "command": "click",
+      "target": "css=#button-password svg",
+      "targets": [
+        ["css=#button-password svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "1f99eec6-1c9d-4b3d-bab8-d6d915304a6b",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=//div/div/input",
+      "targets": [
+        ["id=changePassword_oldPassword", "id"],
+        ["name=changePassword[oldPassword]", "name"],
+        ["css=#changePassword_oldPassword", "css:finder"],
+        ["xpath=//input[@id='changePassword_oldPassword']", "xpath:attributes"],
+        ["xpath=//form[@id='changePassword']/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": "#Cloudno9"
+    }, {
+      "id": "880462a5-cf11-4b2e-a0e0-19522cfaad7b",
+      "comment": "",
+      "command": "click",
+      "target": "id=changePassword_password",
+      "targets": [
+        ["id=changePassword_password", "id"],
+        ["name=changePassword[password]", "name"],
+        ["css=#changePassword_password", "css:finder"],
+        ["xpath=//input[@id='changePassword_password']", "xpath:attributes"],
+        ["xpath=//form[@id='changePassword']/div[2]/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bd8f4c4d-c34e-45dc-9123-2d1e3bfc98b0",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=//div[2]/div/input",
+      "targets": [
+        ["id=changePassword_password", "id"],
+        ["name=changePassword[password]", "name"],
+        ["css=#changePassword_password", "css:finder"],
+        ["xpath=//input[@id='changePassword_password']", "xpath:attributes"],
+        ["xpath=//form[@id='changePassword']/div[2]/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "##Cloudno9"
+    }, {
+      "id": "a5935a1c-9bce-410f-a3e8-5b7b64c19b47",
+      "comment": "",
+      "command": "click",
+      "target": "id=changePassword_confirmPassword",
+      "targets": [
+        ["id=changePassword_confirmPassword", "id"],
+        ["name=changePassword[confirmPassword]", "name"],
+        ["css=#changePassword_confirmPassword", "css:finder"],
+        ["xpath=//input[@id='changePassword_confirmPassword']", "xpath:attributes"],
+        ["xpath=//form[@id='changePassword']/div[2]/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0eb6d99d-12dc-40ff-bef0-bd9eefd874f7",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=//div[3]/div/input",
+      "targets": [
+        ["id=changePassword_confirmPassword", "id"],
+        ["name=changePassword[confirmPassword]", "name"],
+        ["css=#changePassword_confirmPassword", "css:finder"],
+        ["xpath=//input[@id='changePassword_confirmPassword']", "xpath:attributes"],
+        ["xpath=//form[@id='changePassword']/div[2]/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": "##Cloudno9"
+    }, {
+      "id": "b6dc0fe9-9b4f-4a89-ba34-5323d55410eb",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//button[@id='control_save']",
+      "targets": [
+        ["id=control_save", "id"],
+        ["css=#control_save", "css:finder"],
+        ["xpath=//button[@id='control_save']", "xpath:attributes"],
+        ["xpath=//main[@id='main']/div[2]/div[4]/div[2]/div/div[3]/div/div[2]/div/div/div/div[3]/div/div/div/button[2]", "xpath:idRelative"],
+        ["xpath=//div/div/div/button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Save')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "3c9ecb53-c935-4cd2-87fd-45d6d6fd644e",
+    "name": "add language",
+    "commands": [{
+      "id": "a1c588d9-7cb2-4ad6-af11-6e75c5d66a46",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.upwork.com/freelancers/~015fc0905a3d9d0ffd",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "97d229c3-6190-4292-b57d-a19b1ccab27f",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "720x480",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d3da468d-f9e5-41ea-949d-bb7f1b79b70a",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,300)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5b9fb616-1e7f-4271-acb2-1c852681f57c",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,709)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f9b626e0-48ca-4bc0-be39-d0d931622aa3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mt-30:nth-child(3) .d-inline-block:nth-child(2) svg",
+      "targets": [
+        ["css=.mt-30:nth-child(3) .d-inline-block:nth-child(2) svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "c0e833ad-db19-448a-afc6-ae96482ff3dd",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.mt-30:nth-child(3) .d-inline-block:nth-child(2) svg",
+      "targets": [
+        ["css=.mt-30:nth-child(3) .d-inline-block:nth-child(2) svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "42783c88-22a6-451a-a4bc-eb38b1db7da4",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.mt-30:nth-child(3) .d-inline-block:nth-child(2) svg",
+      "targets": [
+        ["css=.mt-30:nth-child(3) .d-inline-block:nth-child(2) svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "147dcf48-2876-4b0d-9c8f-e72443f193b2",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//div[2]/div/div/div/div/div/span",
+      "targets": [
+        ["css=#dropdown-label-14 .flex-1", "css:finder"],
+        ["xpath=//div[@id='dropdown-label-14']/div/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Search for language')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "934752ea-0cec-43f6-a646-6a79832572b2",
+      "comment": "",
+      "command": "type",
+      "target": "css=.up-input",
+      "targets": [
+        ["css=.up-input", "css:finder"],
+        ["xpath=(//input[@type='search'])[3]", "xpath:attributes"],
+        ["xpath=//main[@id='main']/div[2]/div[4]/div/div[2]/div[2]/div/div/div/div[2]/div/div[2]/div/div/div/div[2]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": "fre"
+    }, {
+      "id": "5f33b0a9-7510-4163-af79-e4860a3df0d1",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//div[2]/ul/li/span",
+      "targets": [
+        ["css=.focused-menu > .up-menu-item-text", "css:finder"],
+        ["xpath=//ul[@id='dropdown-menu-14']/li/span", "xpath:idRelative"],
+        ["xpath=//div[2]/ul/li/span", "xpath:position"],
+        ["xpath=//span[contains(.,'French')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7ce8d84b-1eba-4b44-90fe-552f7da19cb6",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//div[2]/div/div[2]/div/div/div/span",
+      "targets": [
+        ["css=#dropdown-label-15 .flex-1", "css:finder"],
+        ["xpath=//div[@id='dropdown-label-15']/div/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div/div/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Search for proficiency level')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "03bcab35-9a16-4ab9-8813-8ffc618cbfaf",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//li/span/span[2]",
+      "targets": [
+        ["css=.focused-menu .up-menu-item-subtext", "css:finder"],
+        ["xpath=//ul[@id='dropdown-menu-15']/li/span/span[2]", "xpath:idRelative"],
+        ["xpath=//li/span/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "04d11342-7b8c-4d03-9040-4755eb99e856",
+      "comment": "",
+      "command": "click",
+      "target": "css=.text-right > .up-btn-primary",
+      "targets": [
+        ["css=.text-right > .up-btn-primary", "css:finder"],
+        ["xpath=//main[@id='main']/div[2]/div[4]/div/div[2]/div[2]/div/div/div/div[3]/div/button[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div[3]/div/button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Save')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "862ef902-8dff-4275-bedb-ff1afa181d8d",
+    "name": "add professional qualification",
+    "commands": [{
+      "id": "e984a9ee-0e9e-43e4-8e4f-884976b7d9fb",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.upwork.com/nx/find-work/best-matches",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "982421b4-9fba-4533-8b1d-e7b8d7152aeb",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1040x754",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "820b9cc7-1ae7-4ba6-af6f-2ceb93dcfa39",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.up-avatar",
+      "targets": [
+        ["css=.up-avatar", "css:finder"],
+        ["xpath=//img[@alt='Aminul Islam R.']", "xpath:img"],
+        ["xpath=//section[@id='fwh-sidebar-profile']/a/img", "xpath:idRelative"],
+        ["xpath=//section/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e71d81b4-3741-4729-9325-c349a901dcc1",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.up-avatar",
+      "targets": [
+        ["css=.up-avatar", "css:finder"],
+        ["xpath=//img[@alt='Aminul Islam R.']", "xpath:img"],
+        ["xpath=//section[@id='fwh-sidebar-profile']/a/img", "xpath:idRelative"],
+        ["xpath=//section/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "86eb6c0a-a7c5-4e1e-b141-596ed1472afb",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "xpath=//section/a",
+      "targets": [
+        ["css=.flex-column", "css:finder"],
+        ["xpath=//section[@id='fwh-sidebar-profile']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://upwork.com/freelancers/aminulislamrocky2')]", "xpath:href"],
+        ["xpath=//section/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7381b7ff-01e3-4c5c-b336-af0399b78cd1",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "xpath=//section/a",
+      "targets": [
+        ["css=.flex-column:nth-child(1)", "css:finder"],
+        ["xpath=//section[@id='fwh-sidebar-profile']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://upwork.com/freelancers/aminulislamrocky2')]", "xpath:href"],
+        ["xpath=//section/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d92f59bb-e555-4391-8388-29e490b420fe",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//section/div/div/a",
+      "targets": [
+        ["linkText=Profile Completeness:", "linkText"],
+        ["css=.link-as-text-unless-parent-is-hovered", "css:finder"],
+        ["xpath=//a[contains(text(),'Profile Completeness:')]", "xpath:link"],
+        ["xpath=//main[@id='main']/div[2]/div[4]/aside/div/div/div/section/div/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript:')])[2]", "xpath:href"],
+        ["xpath=//section/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Profile Completeness:')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "58531298-397c-4f1a-8ac3-9b05df3321a1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.up-card-hover:nth-child(1) > .d-flex > .col",
+      "targets": [
+        ["css=.up-card-hover:nth-child(1) > .d-flex > .col", "css:finder"],
+        ["xpath=//main[@id='main']/div[2]/div[4]/aside/div/div/div/section/div[2]/div[2]/div/div/div/div[3]/div/div[2]/div[2]/div[2]/div/a/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div/a/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ce954857-0bde-420e-bc3f-59030d3749f1",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f69b8bb8-1538-47f9-a36a-f53c0d00357b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.up-typeahead-input-main",
+      "targets": [
+        ["css=.up-typeahead-input-main", "css:finder"],
+        ["xpath=(//input[@type='search'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='companyName']/div/span/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b9fadbf8-1938-487e-9af9-e0d9ea05c93e",
+      "comment": "",
+      "command": "type",
+      "target": "css=.up-typeahead-input-main",
+      "targets": [
+        ["css=.up-typeahead-input-main", "css:finder"],
+        ["xpath=(//input[@type='search'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='companyName']/div/span/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": "EBL"
+    }, {
+      "id": "86e5ee27-688a-4f21-8d04-8b0e1e705f0d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-12 > .up-input",
+      "targets": [
+        ["css=.col-12 > .up-input", "css:finder"],
+        ["xpath=//main[@id='main']/div[2]/div[4]/div/div[2]/div[2]/div/div/div/div[2]/div/div[3]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "56e1d6c5-41c0-4b3b-b340-e222757f527e",
+      "comment": "",
+      "command": "type",
+      "target": "css=.col-12 > .up-input",
+      "targets": [
+        ["css=.col-12 > .up-input", "css:finder"],
+        ["xpath=//main[@id='main']/div[2]/div[4]/div/div[2]/div[2]/div/div/div/div[2]/div/div[3]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/input", "xpath:position"]
+      ],
+      "value": "Dhaka"
+    }, {
+      "id": "cf7b547d-48bf-4ae2-ac60-e0823d5a368a",
+      "comment": "",
+      "command": "click",
+      "target": "css=#dropdown-label-7 .flex-1",
+      "targets": [
+        ["css=#dropdown-label-7 .flex-1", "css:finder"],
+        ["xpath=//div[@id='dropdown-label-7']/div/span", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[2]/div/div/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Country')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cff0a33b-09b3-4c8a-a873-48bfad312767",
+      "comment": "",
+      "command": "type",
+      "target": "css=.up-input:nth-child(2)",
+      "targets": [
+        ["css=.up-input:nth-child(2)", "css:finder"],
+        ["xpath=(//input[@type='search'])[4]", "xpath:attributes"],
+        ["xpath=//main[@id='main']/div[2]/div[4]/div/div[2]/div[2]/div/div/div/div[2]/div/div[3]/div/div[2]/div/div[2]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": "ba"
+    }, {
+      "id": "eafecb31-5fda-49eb-b33f-0abe4aafa22f",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//li[7]/span/span",
+      "targets": [
+        ["css=.focused-menu > .up-menu-item-text > span", "css:finder"],
+        ["xpath=//ul[@id='dropdown-menu-7']/li[7]/span/span", "xpath:idRelative"],
+        ["xpath=//li[7]/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "13389342-1588-4c48-bfb8-9666bd4ef59e",
+      "comment": "",
+      "command": "mouseUp",
+      "target": "xpath=(//input[@type='search'])[4]",
+      "targets": [
+        ["css=.open .up-typeahead-input-main", "css:finder"],
+        ["xpath=(//input[@type='search'])[4]", "xpath:attributes"],
+        ["xpath=//div[@id='jobTitle']/div/span/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/span/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "fa559f07-14e7-4d3a-8209-7b5d4c52e99b",
+    "name": "add training  & certification",
+    "commands": [{
+      "id": "c02a701f-a44b-4473-8508-f7de58d3b6d9",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.upwork.com/nx/find-work/best-matches",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9e5de894-0100-45ea-9ca1-f9961db8cbd7",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1040x754",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "48c758df-8dd1-4efc-8fc3-86e535d6ec2a",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//section/div/div/a",
+      "targets": [
+        ["linkText=Profile Completeness:", "linkText"],
+        ["css=.link-as-text-unless-parent-is-hovered", "css:finder"],
+        ["xpath=//a[contains(text(),'Profile Completeness:')]", "xpath:link"],
+        ["xpath=//main[@id='main']/div[2]/div[4]/aside/div/div/div/section/div/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript:')])[2]", "xpath:href"],
+        ["xpath=//section/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Profile Completeness:')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9a224080-d066-4c4d-8d17-36d87d3baeac",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "xpath=//section/div/div/a",
+      "targets": [
+        ["linkText=Profile Completeness:", "linkText"],
+        ["css=.link-as-text-unless-parent-is-hovered", "css:finder"],
+        ["xpath=//a[contains(text(),'Profile Completeness:')]", "xpath:link"],
+        ["xpath=//main[@id='main']/div[2]/div[4]/aside/div/div/div/section/div/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript:')])[2]", "xpath:href"],
+        ["xpath=//section/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Profile Completeness:')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "74b97e2a-bffa-4309-9685-337d73a2e8f4",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "xpath=//section/div/div/a",
+      "targets": [
+        ["linkText=Profile Completeness:", "linkText"],
+        ["css=.link-as-text-unless-parent-is-hovered", "css:finder"],
+        ["xpath=//a[contains(text(),'Profile Completeness:')]", "xpath:link"],
+        ["xpath=//main[@id='main']/div[2]/div[4]/aside/div/div/div/section/div/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript:')])[2]", "xpath:href"],
+        ["xpath=//section/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Profile Completeness:')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5cc49060-bd10-4190-bf4a-213541f9cd24",
+      "comment": "",
+      "command": "click",
+      "target": "css=.flex-1 > .up-btn",
+      "targets": [
+        ["css=.flex-1 > .up-btn", "css:finder"],
+        ["xpath=//main[@id='main']/div[2]/div[4]/aside/div/div/div/section/div[2]/div[2]/div/div/div/div[3]/div/div[2]/div[2]/div[2]/div[2]/div/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/div/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Show completed (4)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "925496cc-ea80-43ea-be9e-90c91c80ab12",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.flex-1 > .up-btn",
+      "targets": [
+        ["css=.flex-1 > .up-btn", "css:finder"],
+        ["xpath=//main[@id='main']/div[2]/div[4]/aside/div/div/div/section/div[2]/div[2]/div/div/div/div[3]/div/div[2]/div[2]/div[2]/div[2]/div/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/div/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Show completed (4)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "241e2969-4cba-4ce8-a280-c7fb5ecf63b0",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.flex-1 > .up-btn",
+      "targets": [
+        ["css=.flex-1 > .up-btn", "css:finder"],
+        ["xpath=//main[@id='main']/div[2]/div[4]/aside/div/div/div/section/div[2]/div[2]/div/div/div/div[3]/div/div[2]/div[2]/div[2]/div[2]/div/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/div/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Hide completed (4)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3e1f646e-ed6e-46b2-8b64-9b38774698c5",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//div[2]/a/div/div[2]/small",
+      "targets": [
+        ["css=.up-c-collapse > .row:nth-child(1) .d-block", "css:finder"],
+        ["xpath=//main[@id='main']/div[2]/div[4]/aside/div/div/div/section/div[2]/div[2]/div/div/div/div[3]/div/div[2]/div[2]/div[2]/div[2]/div[2]/a/div/div[2]/small", "xpath:idRelative"],
+        ["xpath=//div[2]/a/div/div[2]/small", "xpath:position"],
+        ["xpath=//small[contains(.,'Recognized skills and knowledge')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ba5fa90c-1da3-47b9-86ab-015776b487f5",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//div[2]/div/div/div/div[2]/div/div[2]/div/div",
+      "targets": [
+        ["css=#dropdown-label-7 > .up-dropdown-toggle-title", "css:finder"],
+        ["xpath=//div[@id='dropdown-label-7']/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div[2]/div/div[2]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fbf15317-fed0-4dca-8a11-c2776cb0afc7",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//li[9]/span/span",
+      "targets": [
+        ["css=.focused-menu > .up-menu-item-text > span", "css:finder"],
+        ["xpath=//ul[@id='dropdown-menu-7']/li[9]/span/span", "xpath:idRelative"],
+        ["xpath=//li[9]/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "60302ca5-95b5-494a-9204-bcf20b5f7168",
+      "comment": "",
+      "command": "click",
+      "target": "css=.up-input",
+      "targets": [
+        ["css=.up-input", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//main[@id='main']/div[2]/div[4]/div/div[2]/div[2]/div/div/div/div[2]/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0929460f-b532-43b5-91db-bcd984fa15fa",
+      "comment": "",
+      "command": "type",
+      "target": "css=.up-input",
+      "targets": [
+        ["css=.up-input", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//main[@id='main']/div[2]/div[4]/div/div[2]/div[2]/div/div/div/div[2]/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "Basic Cloud Engineering"
+    }, {
+      "id": "4f461670-1964-4c97-9901-bc72e98317b4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.text-right > .up-btn-primary",
+      "targets": [
+        ["css=.text-right > .up-btn-primary", "css:finder"],
+        ["xpath=//main[@id='main']/div[2]/div[4]/div/div[2]/div[2]/div/div/div/div[3]/div/button[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div[3]/div/button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Add Certification')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "fd5b684d-4818-4b25-85da-b4d16020091d",
+    "name": "Add category",
+    "commands": [{
+      "id": "5717fd55-2aff-4470-a311-66ec1294dee0",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.upwork.com/nx/find-work/best-matches",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "18c4d5a3-79e8-4aca-b8e7-00aa6c362856",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1040x754",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fdb53913-f1dd-465f-b682-eacfd13332ed",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,100)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e4d980f8-c3f1-4dca-a0e0-776b5c760743",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,600)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2568bc16-5d51-4fcf-ab88-b528960d2844",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mb-20 path",
+      "targets": [
+        ["css=.mb-20 path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "b3c862eb-d745-43b0-b8d0-7c6b53a4eff3",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.mb-20 path",
+      "targets": [
+        ["css=.mb-20 path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "e15ca3fa-71e3-4122-b1bf-e0c5231b3d7e",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.mb-20 path",
+      "targets": [
+        ["css=.mb-20 path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "c4ab2350-82c9-4bac-9329-25bffdee8ae6",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,600)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ea009a0f-5a95-43c5-b7ce-7e6df6915800",
+      "comment": "",
+      "command": "click",
+      "target": "css=#cardCollapseButton-531770282580668418 polygon",
+      "targets": [
+        ["css=#cardCollapseButton-531770282580668418 polygon", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "d0155d35-f47b-43e7-8bfc-4d8bf7094a31",
+      "comment": "",
+      "command": "click",
+      "target": "css=#cardCollapse-531770282580668418 .col-md-6:nth-child(8) .up-checkbox-replacement-helper",
+      "targets": [
+        ["css=#cardCollapse-531770282580668418 .col-md-6:nth-child(8) .up-checkbox-replacement-helper", "css:finder"],
+        ["xpath=//div[@id='cardCollapse-531770282580668418']/div/div[8]/div/label/span", "xpath:idRelative"],
+        ["xpath=//section[11]/div/div/div[8]/div/label/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a5898f30-7656-4445-90fb-7805cd0ab107",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//div/div/div[3]/div/button[2]",
+      "targets": [
+        ["css=.up-btn-primary:nth-child(2)", "css:finder"],
+        ["xpath=(//button[@type='button'])[143]", "xpath:attributes"],
+        ["xpath=//main[@id='main']/div[2]/div[4]/div[2]/div[4]/div/div[2]/div[2]/div[2]/div/div/div/div[3]/div/button[2]", "xpath:idRelative"],
+        ["xpath=//div/div/div[3]/div/button[2]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "080f91e2-52ec-4215-ae7c-89b53b5774a9",
+    "name": "Update Profile visibility",
+    "commands": [{
+      "id": "1f846701-a7dc-4bee-b8a7-686a265038a0",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.upwork.com/nx/find-work/best-matches",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ecf81dcc-4067-4952-85a6-da3410e34432",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1040x754",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3ce5ed0e-fa77-415e-9817-f25ed22df270",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,300)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "43896aab-1744-4769-9049-ab170d8adca3",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,500)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "244c4819-126a-453e-b236-2f6c65c725b0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.p-xl-0 path",
+      "targets": [
+        ["css=.p-xl-0 path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "05d56a87-a012-4046-9f5a-af50dd83053d",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(2) > label .up-checkbox-replacement-helper",
+      "targets": [
+        ["css=div:nth-child(2) > label .up-checkbox-replacement-helper", "css:finder"],
+        ["xpath=//main[@id='main']/div[2]/div[4]/aside/div/div/section[3]/div[3]/div[2]/div[2]/div/div/div/div[2]/div/div[2]/div[2]/label/div/label/span", "xpath:idRelative"],
+        ["xpath=//div[2]/label/div/label/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "91f3d601-bc2e-4814-bb0d-8dfc801ec6ba",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//div/div/div[3]/div/button[2]",
+      "targets": [
+        ["css=.up-btn-primary:nth-child(2)", "css:finder"],
+        ["xpath=//main[@id='main']/div[2]/div[4]/aside/div/div/section[3]/div[3]/div[2]/div[2]/div/div/div/div[3]/div/button[2]", "xpath:idRelative"],
+        ["xpath=//div/div/div[3]/div/button[2]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "1aae5cff-f027-473c-ac45-8cf00f466379",
+    "name": "Turn on availability badge",
+    "commands": [{
+      "id": "28dfe8b6-2144-4df6-87ec-e592486749e2",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.upwork.com/nx/find-work/best-matches",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3a9f949a-6aab-4b53-8663-c59043418c98",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1040x754",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a5bbcec0-edf5-4711-bfad-1f0947ac7e53",
+      "comment": "",
+      "command": "click",
+      "target": "css=.pb-xl-0 svg",
+      "targets": [
+        ["css=.pb-xl-0 svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "4b4c7f51-e96f-460f-ae93-77a7db07672e",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.pb-20 > .row path",
+      "targets": [
+        ["css=.pb-20 > .row path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "5fbd99b2-420a-4aeb-98a7-674f8dd1c28b",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.pb-20 > .row path",
+      "targets": [
+        ["css=.pb-20 > .row path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "58d8a1fa-f821-4dfe-8569-3d4a6d1d9274",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.icon-override-plus > svg",
+      "targets": [
+        ["css=.icon-override-plus > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "513da0b3-e150-4657-9867-27b9c1c1d538",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.icon-override-plus > svg",
+      "targets": [
+        ["css=.icon-override-plus > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "b0532316-739e-483e-96ed-308fe16b4bde",
+      "comment": "",
+      "command": "click",
+      "target": "css=.up-btn-primary:nth-child(2)",
+      "targets": [
+        ["css=.up-btn-primary:nth-child(2)", "css:finder"],
+        ["xpath=(//button[@type='button'])[42]", "xpath:attributes"],
+        ["xpath=//main[@id='main']/div[2]/div[4]/aside/div/div/section[3]/div/div/div[3]/div/div[2]/div/div/div/div[3]/div/div/button[2]", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Turn On')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "63ab151f-1644-48c4-a343-70309c555b2f",
+    "name": "Save job",
+    "commands": [{
+      "id": "45bb356d-776a-409d-ae9b-efd9d28c21ae",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.upwork.com/nx/find-work/best-matches",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "986378b9-5ae2-45a6-ad30-c825c54452eb",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1040x754",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0300c70f-2c2c-49b4-ad3a-1af8c65810c8",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,200)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ef1fbaeb-a3d3-43e1-a0bb-089a98700a92",
+      "comment": "",
+      "command": "click",
+      "target": "css=*[data-test=\"job-save-button\"]",
+      "targets": [
+        ["css=*[data-test=\"job-save-button\"]", "css:data-attr"],
+        ["css=.up-card-section:nth-child(1) .job-tile-actions > .up-btn", "css:finder"],
+        ["xpath=(//button[@type='button'])[27]", "xpath:attributes"],
+        ["xpath=//main[@id='main']/div[2]/div[4]/div[2]/div[4]/div/div[2]/div/div/div/section/div/div[2]/div/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Save job Illustrator for variation on St. George and the dragon')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a0c9fc75-da57-4c6e-939f-2d6a12702594",
+      "comment": "",
+      "command": "click",
+      "target": "css=*[data-test=\"tab-saved-jobs\"]",
+      "targets": [
+        ["css=*[data-test=\"tab-saved-jobs\"]", "css:data-attr"],
+        ["css=.up-tab-btn:nth-child(3)", "css:finder"],
+        ["xpath=(//button[@type='button'])[25]", "xpath:attributes"],
+        ["xpath=//main[@id='main']/div[2]/div[4]/div[2]/div[4]/div/div/div[2]/div/div/div/div/div/button[3]", "xpath:idRelative"],
+        ["xpath=//button[3]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "5003fb78-4b67-4c5a-8c57-23f38e963a49",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://www.upwork.com/", "https://www.upwork.com/ab/account-security/login", "https://www.upwork.com/freelancers/~015fc0905a3d9d0ffd", "https://www.upwork.com/nx/find-work/best-matches"],
+  "plugins": []
+}
