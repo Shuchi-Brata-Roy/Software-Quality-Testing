@@ -1,4 +1,4 @@
-# SQAT Final Term Group Project README
+# SQAT Final Term Group Project 
 
 ## Project Overview
 
